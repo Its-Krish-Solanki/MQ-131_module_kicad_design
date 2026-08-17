@@ -1,0 +1,147 @@
+(footprint "MQ-131"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "MQ-131"
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba9ea8c3-9ef1-4cc8-b1fc-e8f232304070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MQ131"
+		(at 0 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d1d6f82-1369-4e74-8cfb-03b4bd1c63e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c81170-fbec-4c89-8c8b-fcfa3d598ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54ecffe3-547f-440f-ae6f-07c479075abc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.09017 0)
+		(end 7.90983 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f3ffd46-135a-4ebf-bbce-41551c5c8abf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b6a2209-8d2c-42fd-8b4a-cec7e906ff65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 3.36 -3.36)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "c5aca8f6-e555-42aa-ac15-9dd4c8de9207")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -4.75)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "71852c65-5996-4231-8e01-c0a0c9d2c513")
+	)
+	(pad "3" thru_hole roundrect
+		(at -3.36 -3.36)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "b8bfd15a-52cf-4e76-b68f-abc205aa2afc")
+	)
+	(pad "4" thru_hole roundrect
+		(at -3.36 3.36)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "d975b883-94ed-47ae-893a-e8f825c24305")
+	)
+	(pad "5" thru_hole roundrect
+		(at 0 4.75)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "42166019-07f6-472d-90a8-40da012b209f")
+	)
+	(pad "6" thru_hole roundrect
+		(at 3.36 3.36)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "a87567d0-b030-4c6f-9409-6da60b749d95")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Krish Solanki/Downloads/mq-131-1.snapshot.5/MQ131.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
