@@ -6,7 +6,7 @@ LM393 is used to light up an LED when the ozone concentration reached a certain 
 Over here i used a 10k resistor, the led will turn on when ozone concentration reaches 500 ppb(parts per billion) 
 
 Schematic
-![Schematic](https://github.com/Its-Krish-Solanki/MQ-131_module_kicad_design/blob/c061d793241aa27981a024e2938a0ea0811adccd/image.png)
+![Schematic](https://raw.githubusercontent.com/Its-Krish-Solanki/MQ-131_module_kicad_design/main/image.png)
 
 Layout
 ![Layout](https://github.com/Its-Krish-Solanki/MQ-131_module_kicad_design/blob/main/image-1.png)
