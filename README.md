@@ -1,0 +1,15 @@
+MQ-131 sensor is used to detect ozone gas levels and also has sensitivity to strong oxides like CL2 and NO2
+
+MQ-131 conuductivity reduces with increase in ozone gas concentration.
+We can convert the change in conductivity to reading using an external analog to digital convertor
+LM393 is used to light up an LED when the ozone concentration reached a certain level that level can be determined by the load resistor.
+Over here i used a 10k resistor, the led will turn on when ozone concentration reaches 500 ppb(parts per billion) 
+
+Schematic
+![Schematic](https://raw.githubusercontent.com/Its-Krish-Solanki/MQ-131_module_kicad_design/main/image.png)
+
+Layout
+![Layout](https://github.com/Its-Krish-Solanki/MQ-131_module_kicad_design/blob/main/image-1.png)
+
+3D viewer
+![3D](https://github.com/Its-Krish-Solanki/MQ-131_module_kicad_design/blob/main/image-2.png)
